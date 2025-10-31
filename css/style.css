@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Airport";
+    src: url('../font/Airport.ttf') format('truetype');
+}
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #e8f5e9, #e0f2f1);
+    color: #2c2c2c;
+    display: flex;
+    flex-direction: column;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #5de8e3, #49a9d0);
+    padding: 14px 24px;
+    color: white;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+}
+.header-text div {
+    font-family: airport;
+    font-size: 1.8rem;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5); 
+    transform: rotate(-2deg);
+}
+.header-logo img {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+.line {
+    display: flex;
+    margin: 25px;
+    flex: 1; 
+}
+.line-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.line-nav ul li {
+    background: linear-gradient(135deg, #5cdbf2, #14b0cf);
+    margin-bottom: 12px;
+    padding: 10px 14px;
+    border-radius: 8px;
+    text-align: center;
+    color: #f9f9f9;
+    font-weight: 500;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+}
+.line-nav ul li:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, #5cdbf2, #14b0cf);
+}
+.line-content {
+    flex: 1;
+    margin-left: 25px;
+    background: linear-gradient(to bottom, #ffffff, #f1f8f6);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+.line-content h2 {
+    color: #2e7d32;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.15);
+    margin-bottom: 10px;
+    border-bottom: 2px solid #a5d6a7;
+    padding-bottom: 6px;
+}
+footer {
+    text-align: center;
+    padding: 12px;
+    background: linear-gradient(to right, #1b5e20, #004d40);
+    color: #e8f5e9;
+    font-size: 0.9rem;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.25);
+     
+}
